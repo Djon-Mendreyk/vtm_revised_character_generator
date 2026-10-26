@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectOptions>
+    <Version Value="12"/>
+    <PathDelim Value="\"/>
+    <General>
+      <SessionStorage Value="InProjectDir"/>
+      <Title Value="project1"/>
+      <Scaled Value="True"/>
+      <ResourceType Value="res"/>
+      <UseXPManifest Value="True"/>
+      <XPManifest>
+        <DpiAware Value="True"/>
+      </XPManifest>
+      <Icon Value="0"/>
+    </General>
+    <VersionInfo>
+      <UseVersionInfo Value="True"/>
+      <MajorVersionNr Value="1"/>
+      <Language Value="0419"/>
+    </VersionInfo>
+    <BuildModes>
+      <Item Name="Default" Default="True"/>
+    </BuildModes>
+    <PublishOptions>
+      <Version Value="2"/>
+      <UseFileFilters Value="True"/>
+    </PublishOptions>
+    <RunParams>
+      <FormatVersion Value="2"/>
+    </RunParams>
+    <RequiredPackages>
+      <Item>
+        <PackageName Value="LazControls"/>
+      </Item>
+      <Item>
+        <PackageName Value="LazControlDsgn"/>
+      </Item>
+      <Item>
+        <PackageName Value="LCL"/>
+      </Item>
+    </RequiredPackages>
+    <Units>
+      <Unit>
+        <Filename Value="project1.lpr"/>
+        <IsPartOfProject Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="mainwindow.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Main"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="MainWindow"/>
+      </Unit>
+      <Unit>
+        <Filename Value="naturewindow.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="VTMNature"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="NatureWindow"/>
+      </Unit>
+      <Unit>
+        <Filename Value="disciplineswindow.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="VTMDisciplines"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="DisciplinesWindow"/>
+      </Unit>
+      <Unit>
+        <Filename Value="meritswindow.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="VTMDosNed"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="MeritsWindow"/>
+      </Unit>
+      <Unit>
+        <Filename Value="backgroupswindow.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="VTMBiography"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="BackGroupsWindow"/>
+      </Unit>
+      <Unit>
+        <Filename Value="psyhoseswindow.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Psychoses"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="PsyhosesWindow"/>
+      </Unit>
+      <Unit>
+        <Filename Value="descriptions.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Descriptions"/>
+      </Unit>
+      <Unit>
+        <Filename Value="extraabilityframe.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Frame0"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Frame"/>
+        <UnitName Value="ExtraAbilityFrame"/>
+      </Unit>
+      <Unit>
+        <Filename Value="characterdata.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="CharacterData"/>
+      </Unit>
+      <Unit>
+        <Filename Value="adddatawindow.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="ExtraLine"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="AddDataWindow"/>
+      </Unit>
+      <Unit>
+        <Filename Value="pointvalue.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit>
+    </Units>
+  </ProjectOptions>
+  <CompilerOptions>
+    <Version Value="11"/>
+    <PathDelim Value="\"/>
+    <Target>
+      <Filename Value="VtmRevisedCharacterGenerator"/>
+    </Target>
+    <SearchPaths>
+      <IncludeFiles Value="$(ProjOutDir)"/>
+      <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)"/>
+    </SearchPaths>
+    <CodeGeneration>
+      <Optimizations>
+        <OptimizationLevel Value="4"/>
+      </Optimizations>
+    </CodeGeneration>
+    <Linking>
+      <Debugging>
+        <GenerateDebugInfo Value="False"/>
+        <DebugInfoType Value="dsDwarf3"/>
+      </Debugging>
+      <Options>
+        <Win32>
+          <GraphicApplication Value="True"/>
+        </Win32>
+      </Options>
+    </Linking>
+  </CompilerOptions>
+  <Debugging>
+    <Exceptions>
+      <Item>
+        <Name Value="EAbort"/>
+      </Item>
+      <Item>
+        <Name Value="ECodetoolError"/>
+      </Item>
+      <Item>
+        <Name Value="EFOpenError"/>
+      </Item>
+    </Exceptions>
+  </Debugging>
+</CONFIG>
